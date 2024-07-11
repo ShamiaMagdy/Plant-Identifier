@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/cameradesign">
+
+    <ImageView
+        android:id="@+id/capture_photo"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_margin="50dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="60dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_action_camera_pic"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_button"
+        android:layout_marginTop="150dp"
+        android:drawableLeft="@drawable/ic_action_cam"
+        android:paddingLeft="23dp"
+        />
+
+    <Button
+        android:id="@+id/btn_upload_photo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/circle_button2"
+        android:drawableLeft="@drawable/ic_action_pic"
+        android:paddingLeft="23dp" />
+
+
+</LinearLayout>

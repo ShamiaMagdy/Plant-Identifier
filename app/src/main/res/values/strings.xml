@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PlantApp</string>
+
+    <string-array name="names">
+        <item>plant1</item>
+        <item>plant2</item>
+        <item>plant3</item>
+        <item>plant4</item>
+        <item>plant5</item>
+        <item>plant6</item>
+    </string-array>
+    <string-array name="description">
+        <item>this is the first plant</item>
+        <item>this is the second plant</item>
+        <item>this is the third plant</item>
+        <item>this is the fourth plant</item>
+        <item>this is the fifth plant</item>
+        <item>this is the six plant</item>
+    </string-array>
+</resources>

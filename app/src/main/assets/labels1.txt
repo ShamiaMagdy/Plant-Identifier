@@ -1,0 +1,23 @@
+Acer buergerianum Miq
+Acer plamatum
+Aesculus chinensis
+Citrus reticulata Blanco
+Ginkgo biloba L
+Indigofera tinctoria L
+Magnolia grandiflora L
+Molokhia
+Nerium oleander L
+Osmanthus fragrans Lour
+Prunus persica 
+Solanum lycopersicum 
+Tonna sinensis M. Roem
+Viburnum awabuki K.Koch800
+Vitis vinifera
+coriander
+parsley
+quercus_macrocarpa
+tilia cordata
+tilia europaea
+tilia tomentosa
+ulmus americana
+ulmus glabra

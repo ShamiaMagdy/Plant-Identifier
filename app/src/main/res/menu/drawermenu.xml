@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/login"
+        android:title="Sign In"
+        android:icon="@drawable/ic_lock"
+        />
+
+    <item
+        android:id="@+id/signup"
+        android:title="Sign Up"
+        android:icon="@drawable/ic_signup"
+        />
+
+    <item
+        android:id="@+id/fav"
+        android:title="Favourites"
+        android:icon="@drawable/ic_fav"
+        />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"
+        />
+</menu>

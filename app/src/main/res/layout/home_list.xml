@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="10dp"
+            app:cardElevation="10dp"
+            >
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/myprofile_mrl_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:id="@+id/images_home"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_weight="10"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/flower"
+
+                        android:padding="2dp"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/textname_home"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="Shereen"
+                        android:layout_weight="1"
+                        android:textSize="17dp"
+
+                        android:textStyle="bold|italic"
+                        android:gravity="center"
+                        android:fontFamily="serif"
+
+                        android:textColor="#000"
+                        />
+                    <Button
+                        android:id="@+id/home_details_buttom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/curved_buttom"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:includeFontPadding="true"
+                        android:text="More details"
+                        android:textColor="#055307"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

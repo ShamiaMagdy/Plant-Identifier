@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="0dp">
+
+
+       <EditText
+
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:layout_marginTop="10dp"
+           android:text="Favourite List"
+           android:textStyle="italic|bold"
+           android:textAlignment="center"
+           android:textSize="24dp"
+           android:background="@drawable/flower4"
+
+           android:drawableLeft="@drawable/ic_action_favourite2"
+           android:paddingLeft="70dp"
+           android:paddingRight="70dp"
+
+           android:textColor="@color/white"
+           />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/favourite_recycleview"
+        android:scrollbars="vertical"/>
+</LinearLayout>
